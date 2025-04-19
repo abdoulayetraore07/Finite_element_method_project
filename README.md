@@ -35,7 +35,7 @@ Where:
 - \( u \) is the temperature
 - \( k \) is the thermal conductivity
 - \( f \) is the heat source
-- \( \Omega \) is the spatial domain
+- $\( \Omega \)$ is the spatial domain
 
 The problem is solved using:
 - **Galerkin Finite Element Method**
