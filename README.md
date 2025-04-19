@@ -26,11 +26,11 @@ This project was conducted as part of an academic module on numerical analysis a
 ## 🧠 Theory Overview
 
 The **heat equation** in its time-dependent form is:
-$
+
 \[
-\frac{\partial u}{\partial t} - \nabla \cdot (k \nabla u) = f \quad \text{in } \Omega \times (0, T)
+$\frac{\partial u}{\partial t} - \nabla \cdot (k \nabla u) = f \quad \text{in } \Omega \times (0, T)$
 \]
-$
+
 
 Where:
 - \( u \) is the temperature
