@@ -46,3 +46,25 @@ The problem is solved using:
 
 ## 📂 Project Structure
 
+```
+/finite_element_method_project
+│── principal_chaleur.m      # Main simulation program for heat equation
+│── domaine.geo              # Geometry definition file (1)
+│── domaine.msh              # Mesh file generated from geometry (1)
+│── geomRectangle.geo        # Geometry definition file (2)
+│── geomRectangle.msh        # Mesh file generated from geometry (2)
+│── lecture_msh.m            # Mesh reading and processing function
+│── affichemaillage.m        # Mesh visualization function
+│── matK_elem.m              # Elementary stiffness matrix computation
+│── matM_elem.m              # Elementary mass matrix computation
+│── mat_elem_surface.m       # Surface element matrix computation
+│── sigma_1.m                # Thermal conductivity function (domain 1)
+│── sigma_2.m                # Thermal conductivity function (domain 2)
+│── condition_initiale.m     # Initial condition definition
+│── f.m                      # Heat source function
+│── f_t.m                    # Time-dependent heat source function
+│── T_Gamma.m                # Boundary temperature function
+│── elimine.m                # Function to apply Dirichlet conditions
+│── affiche.m                # Results visualization function
+│── Compte_rendu_TP2_ANN201.pdf  # Detailed project report
+```
