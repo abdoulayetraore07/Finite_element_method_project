@@ -1,4 +1,4 @@
-# 🔥 Finite Element Method for the Heat Equation | MATLAB Project
+# 🔥 Finite Element Method for the Heat Equation | MATLAB 
 
 ## 📌 Description
 
